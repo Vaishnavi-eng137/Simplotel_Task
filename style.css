@@ -1,0 +1,50 @@
+.section1 {
+  background-color: rgb(10, 10, 10, 0.6);
+  color: white;
+  position:fixed;
+  height: 100%;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  max-width:420px;
+  z-index:1;
+}
+
+.section1 button {
+  color: white;
+}
+.section1 h2 {
+  padding: 5%;
+  margin-top:15%;
+}
+.section1 h3 {
+  padding: 5%;
+}
+.section1 em {
+  padding: 5%;
+}
+.section1 button{
+    margin:10%;
+}
+
+.mainPage {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  background-image: url("/image/el-tenedor-restaurante-organico-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav li{
+    margin-right:20px;
+    margin-bottom:4px;
+}
+.nav{
+    position:absolute;
+    margin:10px;
+    left:35%;
+    z-index:2;   
+}
